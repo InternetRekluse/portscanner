@@ -3,3 +3,9 @@ This tool is a simple port scanner that goes through 1 to 1025 range of ports to
 
 # Usage
 ```python (or python3) portscanner.py``` It'll ask you to enter a Host or IP address, then after you do enter one, click enter and let the port scanning begin!
+
+# Requirements
+```requests```
+```socks```
+```sockets```
+```colorama```
