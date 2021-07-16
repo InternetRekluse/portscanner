@@ -1,0 +1,7 @@
+requests
+colorama
+socks
+sockets
+networkx
+tcp
+udp
