@@ -17,7 +17,7 @@ def is_port_open(host, port):
     # tries to connect to host using that port.
     s.connect((host, port))
     # make timeout if you want it a little faster (less accuracy)
-    # s.settimeout(0.2)
+    s.settimeout(0.2)
   except:
     # cannot connect, port is closed.
     # return False
